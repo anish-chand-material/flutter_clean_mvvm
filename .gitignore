@@ -8,6 +8,7 @@
 .buildlog/
 .history
 .svn/
+.fvm/flutter_sdk
 migrate_working_dir/
 
 # IntelliJ related
@@ -41,3 +42,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment config related
+# This includs sensitive keys/tokens which must not be committed to the version
+# control while using them in your projects created from this template. Don't
+# forget to un-comment these two lines in your client projects.
+# env.json
+# env-*.json
